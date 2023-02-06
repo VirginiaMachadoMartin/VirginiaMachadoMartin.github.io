@@ -1,0 +1,10 @@
+import time
+
+from datetime import datetime
+
+startTime = datetime.now()
+
+for _ in range(10000000): 
+    "pass".__add__("now")
+print(datetime.now() - startTime)
+
