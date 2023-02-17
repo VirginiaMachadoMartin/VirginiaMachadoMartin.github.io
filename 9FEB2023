@@ -1,0 +1,14 @@
+# a brief description of what the script does
+# here imports, if any
+
+
+def main():
+  # your code goes here
+  print("Hello world!")
+
+
+# boilerplate
+if __name__ == "__main__":
+  main()
+else:
+  print("Script can only run as a stand-alone.")

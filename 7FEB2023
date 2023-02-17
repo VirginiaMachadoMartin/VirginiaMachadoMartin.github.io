@@ -1,0 +1,59 @@
+#FIRST TASK
+# declare a variable, check where it sits in memory (hex-id)
+# 
+# look at the following objects
+#zero = 0
+#a = [zero]
+#b = [zero]
+#c = a[:]
+#a2 = a
+
+# first check the hex ids for the first elements of each list, then check the ids for the lists themselves
+#print(hex(id(zero)), hex(id(a)), hex(id(b)), hex(id(c)), hex(id(a2)))
+
+#if a == a2:
+    #print("TRUE")
+
+
+
+
+
+#NEXT TASK
+## to run in your console: 
+## $ python3 myscript.py my_first_arg my_second_arg
+
+#import sys
+
+
+#def main():
+#print("HERE IS", sys.argv)
+  #print("Hello " + sys.argv[1] + "!")
+
+ # print("The system type is" , type(sys.argv))
+#main()
+
+
+
+#NEXT TASK
+def my_func(): # note the naming convention
+  a = 2     # belongs to my_func
+  b = 4     # ...
+  c = a + b # ...
+  print(c)  # ...
+  return(c) # belongs to my_func
+
+# nothing so far has happened, becuase we need to call my_func(); let us verify this, by doing something else first:
+print("nothing has happened up to here")
+
+
+
+
+
+
+#TASK2: 
+##read in the file
+#function 
+#count the character
+#def count_char(input_string):
+    #I can write pass here if I want to not have # in fron ot def
+#print frequency 
