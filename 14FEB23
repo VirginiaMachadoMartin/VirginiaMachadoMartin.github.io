@@ -1,0 +1,54 @@
+## para la tarea 3: int(hex(10), 16)
+
+##text
+##words = text.split(" ")
+##for word in words: 
+    ##if word in freq_dct: 
+        #+1
+    ##else: 
+        #=1
+
+def main():
+  # your code goes here
+
+    my_observations = {"dogs" : 0, "cats" : 2}
+    print(my_observations["dogs"])
+
+    my_dict = {} # dictionary
+    my_dict = dict() # dictionary
+    my_dict = {0} # NOT a dictionary -- what type is this? 
+    my_dict = {"key": "value"} # dictionary
+    print(my_dict)
+
+
+
+# let's say we count animals in the park, then we can use the following to increase the counter
+    my_observations["ducks"] = 1
+    my_observations["ducks"] += 1
+
+# it's good to check if a key exists. the IF IN logic is very useful:
+    if "ducks" in my_observations:
+  # do something
+        print("yes ducks")
+    else:
+  # do something else
+         print ("no ducks")
+
+    my_observations["ducks"] = "ducks are cute"
+
+# if we want to sort a dictionary, we have to sort it and put the result in a list
+# my_dict_sorted_into_a_list = sorted(my_dict) # will not work because of type mixture
+
+# get is also a good way to query a dict if we are unsure whether or not a key exists
+# print(my_dict["geese"])
+# print(my_dict.get("geese"))
+# print(my_dict.get("geese", "are also cute"))
+
+    for my_key in my_observations:
+     print(my_key)
+
+# boilerplate
+if __name__ == "__main__":
+  main()
+else:
+  print("Script can only run as a stand-alone.")

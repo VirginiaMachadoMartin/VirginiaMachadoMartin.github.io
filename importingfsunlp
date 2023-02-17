@@ -1,0 +1,9 @@
+#importing my package 
+
+import fsunlp
+
+def main():
+    input("Please put in text to count characters in the text")
+    fsunlp.char_freq(input)
+    print(char_freq)
+    
