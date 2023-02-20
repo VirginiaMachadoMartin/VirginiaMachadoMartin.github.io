@@ -3,7 +3,12 @@
 import fsunlp
 
 def main():
-    input("Please put in text to count characters in the text")
+    input("Please put in text to count characters in the text: ")
     fsunlp.char_freq(input)
     print(char_freq)
-    
+
+# boilerplate
+if __name__ == "__main__":
+  main()
+else:
+  print("Script can only run as a stand-alone.")

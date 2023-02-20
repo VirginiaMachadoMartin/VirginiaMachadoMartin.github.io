@@ -1,9 +1,9 @@
 #package that does something
 
 #def count_chars(): 
- #   char_dct = dict()
+ #   char_freq_dct = dict()
   #  for char in input_string: 
-   #     if char in char_freq_dct:str: 
+   #     if char in char_freq_dct: 
     #    char_dct[char] += 1
     #else: 
      #   char_dct[char] = 1
